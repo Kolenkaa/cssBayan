@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;	
+	background-color: blanchedalmond;
+}
+
+.mem__wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.mem__title {
+	margin-bottom: 16px;
+}
+
+.mem__description {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid black;	
+}
+
+.mem__description:hover {
+	cursor: pointer;
+}
+
+.mem__text {
+	font-weight: normal;
+	font-size: 24px;
+	font-family: Georgia, 'Times New Roman', Times, serif;	
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.mem__button {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-size: 24px;
+	font-weight:bold;
+}
