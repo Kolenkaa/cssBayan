@@ -39,3 +39,7 @@
 	font-size: 24px;
 	font-weight:bold;
 }
+
+.mem__image {
+	cursor: pointer;
+}
