@@ -40,7 +40,6 @@
 	font-weight: bold;
 }
 
-
 .mem__image {
 	cursor: pointer;
 	display: none;
@@ -48,17 +47,11 @@
 }
 
 label :hover~.mem__image {
-	display: flex;
-	width: 512px;
-	height: 512px;
-	transition-delay: 0.5s;
+	display: flex;	
 	transition: 0.3s all;
 }
 
 input:checked~.mem__image {
 	display: flex;
-	width: 512px;
-	height: 512px;
-	transition-delay: 0.5s;
 	transition: 0.3s all;
 }
