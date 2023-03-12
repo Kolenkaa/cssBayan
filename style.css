@@ -1,6 +1,6 @@
 * {
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 	background-color: blanchedalmond;
 }
 
@@ -18,7 +18,7 @@
 .mem__description {
 	display: flex;
 	justify-content: space-between;
-	border-top: 1px solid black;	
+	border-top: 1px solid black;
 }
 
 .mem__description:hover {
@@ -28,7 +28,7 @@
 .mem__text {
 	font-weight: normal;
 	font-size: 24px;
-	font-family: Georgia, 'Times New Roman', Times, serif;	
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
@@ -37,9 +37,28 @@
 	margin-top: 8px;
 	margin-bottom: 8px;
 	font-size: 24px;
-	font-weight:bold;
+	font-weight: bold;
 }
+
 
 .mem__image {
 	cursor: pointer;
+	display: none;
+	transition: 1s all 1s;
+}
+
+label :hover~.mem__image {
+	display: flex;
+	width: 512px;
+	height: 512px;
+	transition-delay: 0.5s;
+	transition: 0.3s all;
+}
+
+input:checked~.mem__image {
+	display: flex;
+	width: 512px;
+	height: 512px;
+	transition-delay: 0.5s;
+	transition: 0.3s all;
 }
